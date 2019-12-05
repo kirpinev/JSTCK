@@ -1,16 +1,15 @@
 .button {
-    font-weight: 700;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px 25px;
-    background-color: #026AD6;
-    box-shadow: 0px 6px 17px rgba(1, 30, 60, 0.15);
-    border-radius: 3px;
-    border-style: none;
+  font: normal 900 15px/18px Avenir;
+  text-transform: uppercase;
+  background-color: #026ad6;
+  box-shadow: 0px 6px 17px rgba(1, 30, 60, 0.15);
+  color: white;
+  line-height: 3.25;
+  box-shadow: 0 6px 17px;
+  border-radius: 3px;
+  padding: 0;
 }
 
 .button:hover {
-    background-color: rgb(12, 97, 187);
+  background-color: rgb(12, 97, 187);
 }

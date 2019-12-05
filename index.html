@@ -1,115 +1,158 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JSTCK</title>
     <!-- Зачем нам нормалайз? -->
     <!-- <link rel="stylesheet" href="./vendor/normalize.css"> -->
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<!--
+  <!--
 На сайте bem.info в body реализован класс
 https://yadi.sk/i/z76v3NQyE_3Hig
 -->
 
-<body class="page">
+  <body class="page">
     <header class="header">
+      <div class="header__layout">
+        <a href="#" class="logo"></a>
 
-        <div class="header__layout">
-            <a href="#" class="logo"></a>
+        <nav class="navigation header__space">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Как это работает</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Наши клиенты</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Тарифы</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">О компании</a>
+            </li>
+          </ul>
+        </nav>
 
-            <nav class="navigation header__space">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">Как это работает</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Наши клиенты</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Тарифы</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">О компании</a></li>
-                </ul>
-            </nav>
+        <button class="button">Оставить заявку</button>
+      </div>
 
-            <button class="button">Оставить заявку</button>
-        </div>
-
-        <section class="lead">
-            <h1 class="lead__title">Увеличьте ваши продажи на маркеплейсах на 30% </h1>
-            <p class="lead__paragraph">Сервис аналитики для продавцов торгующих через Wildberries, Lamoda, Ozon и
-                другие.</p>
-            <button class="button button__type_default">Оставить заявку</button>
-        </section>
+      <section class="lead">
+        <h1 class="lead__title">
+          Увеличьте ваши продажи на маркеплейсах на 30%
+        </h1>
+        <p class="lead__paragraph">
+          Сервис аналитики для продавцов торгующих через Wildberries, Lamoda,
+          Ozon и другие.
+        </p>
+        <button class="button button__type_default">Оставить заявку</button>
+      </section>
     </header>
 
     <main class="main">
-        <section class="brand">
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/lamoda.png" alt="lamoda" class="brand__logo">
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/ozon.png" alt="ozon" class="brand__logo">
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/wildberries.png" alt="wildberries" class="brand__logo">
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/aliexpress.png" alt="aliexpress" class="brand__logo">
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/beru.png" alt="beru" class="brand__logo">
-            </a>
-        </section>
+      <section class="brand">
+        <a href="#" class="brand__link">
+          <img
+            src="./blocks/brand/__logo/lamoda.png"
+            alt="lamoda"
+            class="brand__logo"
+          />
+        </a>
+        <a href="#" class="brand__link">
+          <img
+            src="./blocks/brand/__logo/ozon.png"
+            alt="ozon"
+            class="brand__logo"
+          />
+        </a>
+        <a href="#" class="brand__link">
+          <img
+            src="./blocks/brand/__logo/wildberries.png"
+            alt="wildberries"
+            class="brand__logo"
+          />
+        </a>
+        <a href="#" class="brand__link">
+          <img
+            src="./blocks/brand/__logo/aliexpress.png"
+            alt="aliexpress"
+            class="brand__logo"
+          />
+        </a>
+        <a href="#" class="brand__link">
+          <img
+            src="./blocks/brand/__logo/beru.png"
+            alt="beru"
+            class="brand__logo"
+          />
+        </a>
+      </section>
 
-        <section class="how-works page__padding">
-            <h1 class="how-works__title">
-                Увеличить продажи на 30%? Да, это возможно.
-            </h1>
+      <section class="how-works page__padding">
+        <h1 class="how-works__title">
+          Увеличить продажи на 30%? Да, это возможно.
+        </h1>
 
-            <div class="how-works__containers">
-                <div class="how-works__column">
-                    <!-- Размеры нужно убрать -->
-                    <img src="./blocks/how-works/__image/how-works-3.svg" alt="" class="how-works__image" height="165"
-                        width="165">
-                    <p class="how-works__description">
-                        Проанализируем ваши текущие продажи: строим аналитические
-                        модели
-                    </p>
-                </div>
+        <div class="how-works__containers">
+          <div class="how-works__column">
+            <!-- Размеры нужно убрать -->
+            <img
+              src="./blocks/how-works/__image/how-works-3.svg"
+              alt=""
+              class="how-works__image"
+              height="165"
+              width="165"
+            />
+            <p class="how-works__description">
+              Проанализируем ваши текущие продажи: строим аналитические модели
+            </p>
+          </div>
 
-                <div class="how-works__column">
-                    <img src="./blocks/how-works/__image/how-works-2.svg" alt="" class="how-works__image" height="165"
-                        width="165">
-                    <p class="how-works__description">
-                        Найдем точки роста: углубляемся в алгоритмы маркетплейсов и
-                        выявляем ключевые метрики роста продаж в маркетплейсах.
-                    </p>
-                </div>
+          <div class="how-works__column">
+            <img
+              src="./blocks/how-works/__image/how-works-2.svg"
+              alt=""
+              class="how-works__image"
+              height="165"
+              width="165"
+            />
+            <p class="how-works__description">
+              Найдем точки роста: углубляемся в алгоритмы маркетплейсов и
+              выявляем ключевые метрики роста продаж в маркетплейсах.
+            </p>
+          </div>
 
-                <div class="how-works__column">
-                    <img src="./blocks/how-works/__image/how-works-1.svg" alt="" class="how-works__image" height="165"
-                        width="165">
-                    <p class="how-works__description">
-                        Разработаем решения и стратегию роста: исследуем текущие
-                        конкурентные цены, прогнозируем цены в будущее, анализируем
-                        ликвидность, строим планы продаж.
-                    </p>
-                </div>
-            </div>
-        </section>
+          <div class="how-works__column">
+            <img
+              src="./blocks/how-works/__image/how-works-1.svg"
+              alt=""
+              class="how-works__image"
+              height="165"
+              width="165"
+            />
+            <p class="how-works__description">
+              Разработаем решения и стратегию роста: исследуем текущие
+              конкурентные цены, прогнозируем цены в будущее, анализируем
+              ликвидность, строим планы продаж.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section class="our">
-            <img src="./blocks/our/__image/our.svg" alt="" class="our__image">
-            <div class="our__container">
-                <p class="our__description">
-                    Наши технологии и команда помогает производствам эффективнее
-                    продавать товары на ведущих маркетплейсах и оптимизировать
-                    бюджеты на организации продаж.
-                </p>
-                <button class="button our__button">Хочу с вами работать</button>
-            </div>
-        </section>
+      <section class="our">
+        <img src="./blocks/our/__image/our.svg" alt="" class="our__image" />
+        <div class="our__container">
+          <p class="our__description">
+            Наши технологии и команда помогает производствам эффективнее
+            продавать товары на ведущих маркетплейсах и оптимизировать бюджеты
+            на организации продаж.
+          </p>
+          <button class="button our__button">Хочу с вами работать</button>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
