@@ -1,0 +1,14 @@
+.button {
+  font: normal 900 15px/18px Avenir;
+  text-transform: uppercase;
+  background-color: #026ad6;
+  color: white;
+  line-height: 3.25;
+  box-shadow: 0 6px 17px;
+  border-radius: 3px;
+  padding: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}

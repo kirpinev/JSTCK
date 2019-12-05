@@ -1,0 +1,5 @@
+.how-works__containers {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

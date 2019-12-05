@@ -1,0 +1,6 @@
+.how-works__column {
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

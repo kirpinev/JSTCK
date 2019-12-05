@@ -1,2 +1,2 @@
-# JSTCK-2
+# JSTCK
  

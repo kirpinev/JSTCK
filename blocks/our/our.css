@@ -1,0 +1,11 @@
+@import url("./__container/our__container.css");
+@import url("./__image/our__image.css");
+@import url("./__description/our__description.css");
+@import url("./__button/our__button.css");
+
+.our {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f5f8;
+  padding: 71px 0;
+}
