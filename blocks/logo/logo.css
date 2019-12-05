@@ -1,0 +1,7 @@
+.logo {
+    display: block;
+    background-image: url(./logo.svg);
+    width: 99px;
+    height: 24px;
+    cursor: pointer;
+}

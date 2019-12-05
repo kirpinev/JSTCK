@@ -1,8 +1,8 @@
-@import url("./__containers/how-works__containers.css");
-@import url("./__column/how-works__column.css");
-@import url("./__image/how-works__image.css");
-@import url("./__title/how-works__title.css");
-@import url("./__description/how-works__description.css");
+@import url(./__containers/how-works__containers.css);
+@import url(./__column/how-works__column.css);
+@import url(./__image/how-works__image.css);
+@import url(./__title/how-works__title.css);
+@import url(./__description/how-works__description.css);
 
 .how-works {
   max-width: 1440px;

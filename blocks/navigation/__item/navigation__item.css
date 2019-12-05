@@ -1,0 +1,7 @@
+.navigation__item {
+    padding-right: 20px;
+}
+
+.navigation__item:last-child {
+    padding-right: 0px;
+}

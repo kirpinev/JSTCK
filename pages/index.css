@@ -1,5 +1,9 @@
-@import url("../fonts/avenir/avenir.css");
-@import url("../blocks/how-works/how-works.css");
-@import url("../blocks/page/page.css");
-@import url("../blocks/our/our.css");
-@import url("../blocks/button/button.css");
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/brand/brand.css);
+@import url(../blocks/how-works/how-works.css);
+@import url(../blocks/our/our.css);
