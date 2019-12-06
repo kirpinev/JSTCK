@@ -1,4 +1,10 @@
 .footer__navigation-link {
+    font: 400 0.8em/1.2 'Avenir Next', Arial, sans-serif;
     color: #979797;
-    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__navigation-link:hover {
+    text-decoration: underline;
 }

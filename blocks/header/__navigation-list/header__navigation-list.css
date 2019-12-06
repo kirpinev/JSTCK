@@ -1,4 +1,4 @@
-.navigation__list {
+.header__navigation-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;

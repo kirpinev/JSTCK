@@ -1,0 +1,8 @@
+.footer__column {
+    width: 200px;
+    padding-left: 30px;
+}
+
+.footer__column:first-child {
+    padding-left: 0;
+}

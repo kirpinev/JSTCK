@@ -1,0 +1,7 @@
+.header__navigation-item {
+    padding-left: 20px;
+}
+
+.header__navigation-item:first-child {
+    padding-left: 0px;
+}
