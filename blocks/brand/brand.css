@@ -1,0 +1,9 @@
+@import url(./__link/brand__link.css);
+@import url(./__logo/brand__logo.css);
+
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}

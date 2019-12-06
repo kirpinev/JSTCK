@@ -1,0 +1,10 @@
+@import url(./__title/lead__title.css);
+@import url(./__description/lead__description.css);
+
+.lead {
+    background-image: url(./discussion-workers.jpg);
+    background-position: 100% 100%;
+    background-size: auto 413px;
+    background-repeat: no-repeat;
+    padding: 130px 0 50px;
+}

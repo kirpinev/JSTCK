@@ -1,14 +1,15 @@
 .button {
-  font: normal 900 15px/18px Avenir;
+  font: 700 1em/1 'Avenir Next', Arial, sans-serif;
   text-transform: uppercase;
   background-color: #026ad6;
+  box-shadow: 0 0.4em 1em rgba(1, 30, 60, 0.15);
   color: white;
-  line-height: 3.25;
-  box-shadow: 0 6px 17px;
   border-radius: 3px;
-  padding: 0;
+  padding: 1em 2em;
+  border-style: none;
 }
 
 .button:hover {
+  background-color: rgb(12, 97, 187);
   cursor: pointer;
 }
