@@ -1,11 +1,9 @@
 .navigation__link {
-    font: 600 0.8em/1.2 'Avenir Next', Arial, sans-serif;
-    text-decoration: none;
-    color: #00376E;
-    font-weight: 600;
+    font-family: 'Avenir Next', Arial, sans-serif;
     font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .navigation__link:hover {

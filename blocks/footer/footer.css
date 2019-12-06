@@ -1,0 +1,10 @@
+@import url(./__layout/footer__layout.css);
+@import url(./__container/footer__container.css);
+@import url(./__column/footer__column.css);
+@import url(./__navigation-list/footer__navigation-list.css);
+@import url(./__navigation-link/footer__navigation-link.css);
+
+.footer {
+    background-color: #000;
+    padding: 40px 0;
+}
