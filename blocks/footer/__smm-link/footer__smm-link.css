@@ -1,0 +1,16 @@
+@import url(./_facebook/footer__smm-link_facebook.css);
+@import url(./_telegram/footer__smm-link_telegram.css);
+@import url(./_linkedin/footer__smm-link_linkedin.css);
+
+.footer__smm-link {
+    display: inline-block;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.footer__smm-link:first-child {
+    margin-left: 0;
+}

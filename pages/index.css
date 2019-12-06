@@ -3,8 +3,8 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/list/list.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/navigation/navigation.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/brand/brand.css);
 @import url(../blocks/how-works/how-works.css);
@@ -13,5 +13,6 @@
 @import url(../blocks/tariffs/tariffs.css);
 @import url(../blocks/individual/individual.css);
 @import url(../blocks/company/company.css);
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/action/action.css);
 
