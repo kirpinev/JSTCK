@@ -1,0 +1,10 @@
+@import url(./__container/company__container.css);
+@import url(./__description/company__description.css);
+@import url(./__image/company__image.css);
+@import url(./__title/company__title.css);
+
+.company {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
