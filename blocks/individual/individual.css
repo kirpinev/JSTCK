@@ -1,0 +1,11 @@
+@import url(./__container/individual__container.css);
+@import url(./__description/individual__description.css);
+@import url(./__image/individual__image.css);
+@import url(./__title/individual__title.css);
+@import url(./__wrapper/individual__wrapper.css);
+
+.individual {
+    display: flex;
+    justify-content: center;
+    padding: 59px 0 105px 0;
+}
