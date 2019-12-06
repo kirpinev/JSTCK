@@ -1,3 +1,5 @@
 .header__button {
-  width: 178px;
+    padding: 0.8em 1.6em;
+    font-size: 0.8em;
+    line-height: 1;
 }
