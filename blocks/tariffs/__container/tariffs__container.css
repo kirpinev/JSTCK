@@ -1,0 +1,5 @@
+.tariffs__container {
+    display: flex;
+    max-width: 1204px;
+    margin: 60px auto 45px;
+}

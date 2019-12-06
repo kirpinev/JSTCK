@@ -1,0 +1,12 @@
+@import url(./__container/tariffs__container.css);
+@import url(./__column/tariffs__column.css);
+@import url(./__title/tariffs__title.css);
+@import url(./__list/tariffs__list.css);
+@import url(./__item/tariffs__item.css);
+@import url(./__price/tariffs__price.css);
+@import url(./__month/tariffs__month.css);
+
+.tariffs {
+    padding: 120px 0 40px;
+    text-align: center;
+}

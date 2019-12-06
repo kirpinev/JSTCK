@@ -1,0 +1,16 @@
+@import url(./_sizing/tariffs__column_sizing.css);
+
+.tariffs__column {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 35px 20px 85px;
+    min-height: 620px;
+    box-sizing: border-box;
+    flex: 0 1 375px;
+}
+
+.tariffs__column:first-child {
+    margin-left: 0;
+}
