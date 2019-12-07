@@ -1,6 +1,6 @@
 .business__wrapper {
   display: flex;
-  justify-content: start;
-  max-width: 1217px;
+  justify-content: space-between;
+  max-width: 1100px;
   margin: 0 auto;
 }

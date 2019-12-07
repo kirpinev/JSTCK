@@ -1,8 +1,8 @@
 .company__wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  max-width: 1217px;
+  max-width: 1164px;
   margin: 0 auto;
   padding: 45px 0 0 0;
 }
