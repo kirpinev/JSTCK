@@ -3,7 +3,6 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/list/list.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/brand/brand.css);
@@ -15,4 +14,8 @@
 @import url(../blocks/company/company.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/action/action.css);
+@import url(../blocks/clients/clients.css);
+@import url(../blocks/experience/experience.css);
+@import url(../blocks/business/business.css);
+@import url(../blocks/leadform/leadform.css);
 
