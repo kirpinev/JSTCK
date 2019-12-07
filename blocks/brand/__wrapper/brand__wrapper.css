@@ -1,0 +1,8 @@
+.brand__wrapper {
+    max-width: 1217px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 77px 0 0 0;
+}

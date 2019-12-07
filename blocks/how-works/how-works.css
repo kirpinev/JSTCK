@@ -3,11 +3,12 @@
 @import url(./__image/how-works__image.css);
 @import url(./__title/how-works__title.css);
 @import url(./__description/how-works__description.css);
+@import url(./__wrapper/how-works__wrapper.css);
 
 .how-works {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   align-items: center;
   color: #00376e;
   margin-bottom: 189px;

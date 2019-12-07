@@ -1,0 +1,8 @@
+.experience__wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 22px 0 105px 0;
+  max-width: 1217px;
+  margin: 0 auto;
+}

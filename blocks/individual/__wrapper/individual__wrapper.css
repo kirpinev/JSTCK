@@ -1,0 +1,7 @@
+.individual__wrapper {
+    max-width: 1217px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  padding: 59px 0 105px 0;
+}

@@ -1,0 +1,7 @@
+.our__wrapper {
+    max-width: 1217px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 46px 0 0 0;
+}

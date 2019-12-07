@@ -5,7 +5,5 @@
 @import url(./__wrapper/individual__wrapper.css);
 
 .individual {
-    display: flex;
-    justify-content: center;
-    padding: 59px 0 105px 0;
+
 }

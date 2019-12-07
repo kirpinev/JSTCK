@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,338 +8,475 @@
     <!-- Зачем нам нормалайз? -->
     <!-- <link rel="stylesheet" href="./vendor/normalize.css"> -->
     <link rel="stylesheet" href="./pages/index.css" />
-</head>
+  </head>
 
-<!--
+  <!--
 На сайте bem.info в body реализован класс
 https://yadi.sk/i/z76v3NQyE_3Hig
 -->
 
-<body class="page">
+  <body class="page">
     <header class="header">
+      <div class="header__wrapper">
         <div class="header__layout">
-            <a href="#" class="logo"></a>
+          <a href="#" class="logo"></a>
 
-            <nav class="header__navigation">
-                <ul class="header__navigation-list">
-                    <li class="header__navigation-item">
-                        <a href="#" class="header__navigation-link">Как это работает</a>
-                    </li>
-                    <li class="header__navigation-item">
-                        <a href="#" class="header__navigation-link">Наши клиенты</a>
-                    </li>
-                    <li class="header__navigation-item">
-                        <a href="#" class="header__navigation-link">Тарифы</a>
-                    </li>
-                    <li class="header__navigation-item">
-                        <a href="#" class="header__navigation-link">О компании</a>
-                    </li>
-                </ul>
-            </nav>
+          <nav class="header__navigation">
+            <ul class="header__navigation-list">
+              <li class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Как это работает</a>
+              </li>
+              <li class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Наши клиенты</a>
+              </li>
+              <li class="header__navigation-item">
+                <a href="#" class="header__navigation-link">Тарифы</a>
+              </li>
+              <li class="header__navigation-item">
+                <a href="#" class="header__navigation-link">О компании</a>
+              </li>
+            </ul>
+          </nav>
 
-            <button class="button header__button">Оставить заявку</button>
+          <button class="button header__button">Оставить заявку</button>
         </div>
 
         <section class="lead">
-            <h1 class="lead__title">
-                Увеличьте ваши продажи на маркеплейсах <br class="lead__title_br" />на
-                30%
-            </h1>
-            <p class="lead__description">
-                Сервис аналитики для продавцов торгующих через Wildberries, Lamoda,
-                Ozon и другие.
-            </p>
-            <button class="button">Оставить заявку</button>
+          <h1 class="lead__title">
+            Увеличьте ваши продажи на маркеплейсах
+            <br class="lead__title_br" />на 30%
+          </h1>
+          <p class="lead__description">
+            Сервис аналитики для продавцов торгующих через Wildberries, Lamoda,
+            Ozon и другие.
+          </p>
+          <button class="button">Оставить заявку</button>
         </section>
+      </div>
     </header>
 
     <main class="main">
-        <!-- Тут в идеале должны быть ссылки на подробные условия работы с маркетплейсами. Либо на кейсы. В магазин пользователя не нужно уводить, это будет неправильно. -->
-        <section class="brand">
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/lamoda.png" alt="lamoda" class="brand__logo" />
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/ozon.png" alt="ozon" class="brand__logo" />
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/wildberries.png" alt="wildberries" class="brand__logo" />
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/aliexpress.png" alt="aliexpress" class="brand__logo" />
-            </a>
-            <a href="#" class="brand__link">
-                <img src="./blocks/brand/__logo/beru.png" alt="beru" class="brand__logo" />
-            </a>
-        </section>
+      <!-- Тут в идеале должны быть ссылки на подробные условия работы с маркетплейсами.
+      Либо на кейсы. В магазин пользователя не нужно уводить, это будет неправильно. -->
+      <section class="brand">
+        <div class="brand__wrapper">
+          <a href="#" class="brand__link">
+            <img
+              src="./blocks/brand/__logo/lamoda.png"
+              alt="lamoda"
+              class="brand__logo"
+            />
+          </a>
+          <a href="#" class="brand__link">
+            <img
+              src="./blocks/brand/__logo/ozon.png"
+              alt="ozon"
+              class="brand__logo"
+            />
+          </a>
+          <a href="#" class="brand__link">
+            <img
+              src="./blocks/brand/__logo/wildberries.png"
+              alt="wildberries"
+              class="brand__logo"
+            />
+          </a>
+          <a href="#" class="brand__link">
+            <img
+              src="./blocks/brand/__logo/aliexpress.png"
+              alt="aliexpress"
+              class="brand__logo"
+            />
+          </a>
+          <a href="#" class="brand__link">
+            <img
+              src="./blocks/brand/__logo/beru.png"
+              alt="beru"
+              class="brand__logo"
+            />
+          </a>
+        </div>
+      </section>
 
-        <section class="how-works page__padding">
-            <h1 class="how-works__title">
-                Увеличить продажи на 30%? Да, это возможно.
-            </h1>
+      <section class="how-works page__padding">
+        <div class="how-works__wrapper">
+          <h1 class="title how-works__title">
+            Увеличить продажи на 30%? Да, это возможно.
+          </h1>
 
-            <div class="how-works__containers">
-                <div class="how-works__column">
-                    <!-- Размеры нужно убрать -->
-                    <img src="./blocks/how-works/__image/how-works-3.svg" alt="" class="how-works__image" height="165"
-                        width="165" />
-                    <p class="how-works__description">
-                        Проанализируем ваши текущие продажи: строим аналитические модели
-                    </p>
-                </div>
-
-                <div class="how-works__column">
-                    <img src="./blocks/how-works/__image/how-works-2.svg" alt="" class="how-works__image" height="165"
-                        width="165" />
-                    <p class="how-works__description">
-                        Найдем точки роста: углубляемся в алгоритмы маркетплейсов и
-                        выявляем ключевые метрики роста продаж в маркетплейсах.
-                    </p>
-                </div>
-
-                <div class="how-works__column">
-                    <img src="./blocks/how-works/__image/how-works-1.svg" alt="" class="how-works__image" height="165"
-                        width="165" />
-                    <p class="how-works__description">
-                        Разработаем решения и стратегию роста: исследуем текущие
-                        конкурентные цены, прогнозируем цены в будущее, анализируем
-                        ликвидность, строим планы продаж.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="our">
-            <img src="./blocks/our/__image/our.svg" alt="" class="our__image" />
-            <div class="our__container">
-                <p class="our__description">
-                    Наши технологии и команда помогает производствам эффективнее
-                    продавать товары на ведущих маркетплейсах и оптимизировать бюджеты
-                    на организации продаж.
-                </p>
-                <button class="button our__button">Хочу с вами работать</button>
-            </div>
-        </section>
-
-        <section class="clients">
-            <div class="clients__container">
-                <h3 class="clients__title">Клиенты и отзывы</h3>
-                <div class="clients__area">
-                    <div class="client">
-                        <div class="client__wrapper">
-                            <img class="client__image" src="./blocks/clients/__image/client-image.jpg" alt="Изображение клиента">
-                            <h4 class="client__name">Иннокентий Архангелогородцев <br class="client__name_br" /> (компания 1)</h4>
-                        </div>
-                        <p class="client__review">Ось собственного вращения восстанавливает предел функции, как и предполагалось.
-                            Уравнение Эйлера, в соответствии с основным законом динамики, естественно преобразует лазерный момент силы трения.
-                            Уравнение возмущенного движения расточительно поддерживает момент силы трения, что несомненно приведет нас к истине. 
-                        </p>
-                    </div>
-                    <div class="client">
-                        <div class="client__wrapper">
-                            <img class="client__image" src="./blocks/clients/__image/client-image.jpg" alt="Изображение клиента">
-                            <h4 class="client__name">Иннокентий Архангелогородцев <br class="client__name_br"/> (компания 1)</h4>
-                        </div>
-                        <p class="client__review">Ось собственного вращения восстанавливает предел функции, как и предполагалось.
-                            Уравнение Эйлера, в соответствии с основным законом динамики, естественно преобразует лазерный момент силы трения.
-                            Уравнение возмущенного движения расточительно поддерживает момент силы трения, что несомненно приведет нас к истине. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="tariffs main__bg">
-            <h2 class="title">Тарифы</h2>
-
-            <div class="tariffs__container">
-                <div class="tariffs__column">
-                    <h3 class="title tariffs__title">SaaS</h3>
-
-                    <ul class="tariffs__list">
-                        <li class="tariffs__item">Подписка на сервис аналитики.</li>
-                        <li class="tariffs__item">
-                            Подойдет для специалистов по аналитике в вашей компании.
-                        </li>
-                        <li class="tariffs__item">
-                            Есть ограничение по количеству маркетплейсов.
-                        </li>
-                    </ul>
-
-                    <div class="title tariffs__price">
-                        59 000 ₽<span class="tariffs__month">месяц</span>
-                    </div>
-                </div>
-
-                <div class="tariffs__column tariffs__column_sizing">
-                    <h3 class="title tariffs__title">COOaaS</h3>
-
-                    <ul class="tariffs__list">
-                        <li class="tariffs__item">
-                            Внедряем наши технологии в ваши процессе, помогаем настроить
-                            аналитику продаж.
-                        </li>
-                        <li class="tariffs__item">
-                            Нет ограничений в количестве подключаемых маркетплейсов.
-                        </li>
-                    </ul>
-
-                    <div class="title tariffs__price">2-10% от продаж</div>
-                </div>
-
-                <div class="tariffs__column">
-                    <h3 class="title tariffs__title">Консалтинг</h3>
-
-                    <ul class="tariffs__list">
-                        <li class="tariffs__item">
-                            Полное погружение нашей команды в ваш бизнес и процессы.
-                        </li>
-                    </ul>
-
-                    <div class="title tariffs__price">
-                        119 000 ₽<span class="tariffs__month">месяц</span>
-                    </div>
-                </div>
+          <div class="how-works__containers">
+            <div class="how-works__column">
+              <!-- Размеры нужно убрать -->
+              <img
+                src="./blocks/how-works/__image/how-works-3.svg"
+                alt=""
+                class="how-works__image"
+                height="165"
+                width="165"
+              />
+              <p class="how-works__description">
+                Проанализируем ваши текущие продажи: строим аналитические модели
+              </p>
             </div>
 
-            <button class="button">Оставить заявку</button>
-        </section>
-
-        <section class="individual">
-            <img src="./blocks/individual/__image/individual.jpg" alt="" class="individual__image" height="304"
-                width="569" />
-            <div class="individual__container">
-                <h2 class="individual__title">Индивидуальный подход</h2>
-                <p class="individual__description">
-                    У каждой компании, с которой мы работаем, своя концепция и свой
-                    голос. Мы развиваем уникальные продукты. Мы предлагаем несколько
-                    сервисов для развития вашей компании. Если вы не найдете нужной
-                    услуги, мы всегда готовы встретиться и обсудить, чем можем помочь
-                    именно вам.
-                </p>
-            </div>
-        </section>
-
-        <section class="experience">
-            <div class="experience__container">
-                <h2 class="experience__title">12 лет опыта работы с данными</h2>
-                <p class="experience__description">
-                        Мы занимаемся работой с данными совокупно уже более 12 лет.
-                        За это время наша экспертиза выросла многократно. 
-                </p>
+            <div class="how-works__column">
+              <img
+                src="./blocks/how-works/__image/how-works-2.svg"
+                alt=""
+                class="how-works__image"
+                height="165"
+                width="165"
+              />
+              <p class="how-works__description">
+                Найдем точки роста: углубляемся в алгоритмы маркетплейсов и
+                выявляем ключевые метрики роста продаж в маркетплейсах.
+              </p>
             </div>
 
-            <img src="./blocks/experience/__image/experience__image.jpg" alt="" class="experience__image" height="352" width="326" />
-        </section>
-
-        <section class="business">
-            <img src="./blocks/business/__image/business.jpg" alt="" class="business__image" height="315"
-                width="415"/>
-            <div class="business__container">
-                <h2 class="business__title">Все, что необходимо бизнесу</h2>
-                <p class="business__description">
-                        Для наших клиентов мы решали IT и аналитические задачи, 
-                        изучали алгоритмы продаж, работали с большими данными строя аналитические модели. 
-                        Всё то, что нужно для уверенного роста бизнеса и продаж. 
-                </p>
+            <div class="how-works__column">
+              <img
+                src="./blocks/how-works/__image/how-works-1.svg"
+                alt=""
+                class="how-works__image"
+                height="165"
+                width="165"
+              />
+              <p class="how-works__description">
+                Разработаем решения и стратегию роста: исследуем текущие
+                конкурентные цены, прогнозируем цены в будущее, анализируем
+                ликвидность, строим планы продаж.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="company">
-            <div class="company__container">
-                <h2 class="company__title">Компания JStick</h2>
-                <p class="company__description">
-                    Мы команда JStick. Наша работа — решать вопросы с аналитикой продаж
-                    на маркетплейсах для производственных кампаний.
-                </p>
-                <p class="company__description">
-                    Мы занимаемся работой с данными совокупно уже более 12 лет. За это
-                    время наша экспертиза выросла многократно. Для наших клиентов мы
-                    решали IT и аналитические задачи, изучали алгоритмы продаж, работали
-                    с большими данными строя аналитические модели. Всё то, что нужно для
-                    уверенного роста бизнеса и продаж.
-                </p>
+      <section class="our">
+        <div class="our__wrapper">
+          <img src="./blocks/our/__image/our.svg" alt="" class="our__image" />
+          <div class="our__container">
+            <p class="our__description">
+              Наши технологии и команда помогает производствам эффективнее
+              продавать товары на ведущих маркетплейсах и оптимизировать бюджеты
+              на организации продаж.
+            </p>
+            <button class="button our__button">Хочу с вами работать</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients">
+        <div class="clients__wrapper">
+          <h3 class="clients__title">Клиенты и отзывы</h3>
+          <div class="clients__area">
+            <div class="client">
+              <div class="client__container">
+                <img
+                  class="client__image"
+                  src="blocks/clients/__image/clients-image.jpg"
+                  alt="Изображение клиента"
+                />
+                <h4 class="client__name">
+                  Иннокентий Архангелогородцев <br class="client__name_br" />
+                  (компания 1)
+                </h4>
+              </div>
+              <p class="client__review">
+                Ось собственного вращения восстанавливает предел функции, как и
+                предполагалось. Уравнение Эйлера, в соответствии с основным
+                законом динамики, естественно преобразует лазерный момент силы
+                трения. Уравнение возмущенного движения расточительно
+                поддерживает момент силы трения, что несомненно приведет нас к
+                истине.
+              </p>
+            </div>
+            <div class="client">
+              <div class="client__container">
+                <img
+                  class="client__image"
+                  src="blocks/clients/__image/clients-image.jpg"
+                  alt="Изображение клиента"
+                />
+                <h4 class="client__name">
+                  Иннокентий Архангелогородцев <br class="client__name_br" />
+                  (компания 1)
+                </h4>
+              </div>
+              <p class="client__review">
+                Ось собственного вращения восстанавливает предел функции, как и
+                предполагалось. Уравнение Эйлера, в соответствии с основным
+                законом динамики, естественно преобразует лазерный момент силы
+                трения. Уравнение возмущенного движения расточительно
+                поддерживает момент силы трения, что несомненно приведет нас к
+                истине.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tariffs">
+        <div class="tariffs__wrapper">
+          <h2 class="title">Тарифы</h2>
+
+          <div class="tariffs__container">
+            <div class="tariffs__column">
+              <h3 class="title tariffs__title">SaaS</h3>
+
+              <ul class="tariffs__list">
+                <li class="tariffs__item">Подписка на сервис аналитики.</li>
+                <li class="tariffs__item">
+                  Подойдет для специалистов по аналитике в вашей компании.
+                </li>
+                <li class="tariffs__item">
+                  Есть ограничение по количеству маркетплейсов.
+                </li>
+              </ul>
+
+              <div class="title tariffs__price">
+                59 000 ₽<span class="tariffs__month">месяц</span>
+              </div>
             </div>
 
-            <img src="./blocks/company/__image/company.jpg" alt="" class="company__image" height="293" width="536" />
-        </section>
+            <div class="tariffs__column tariffs__column_sizing">
+              <h3 class="title tariffs__title">COOaaS</h3>
 
-        <section class="action">
-            <h2 class="action__title">
-                Вам лишь останется сфокусироваться на производственных процессах, а
-                заботы о анализе данных продаж мы возьмем на себя.
+              <ul class="tariffs__list">
+                <li class="tariffs__item">
+                  Внедряем наши технологии в ваши процессе, помогаем настроить
+                  аналитику продаж.
+                </li>
+                <li class="tariffs__item">
+                  Нет ограничений в количестве подключаемых маркетплейсов.
+                </li>
+              </ul>
+
+              <div class="title tariffs__price">2-10% от продаж</div>
+            </div>
+
+            <div class="tariffs__column">
+              <h3 class="title tariffs__title">Консалтинг</h3>
+
+              <ul class="tariffs__list">
+                <li class="tariffs__item">
+                  Полное погружение нашей команды в ваш бизнес и процессы.
+                </li>
+              </ul>
+
+              <div class="title tariffs__price">
+                119 000 ₽<span class="tariffs__month">месяц</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="button">Оставить заявку</button>
+        </div>
+      </section>
+
+      <section class="individual">
+        <div class="individual__wrapper">
+          <img
+            src="./blocks/individual/__image/individual.jpg"
+            alt=""
+            class="individual__image"
+            height="304"
+            width="569"
+          />
+          <div class="individual__container">
+            <h2 class="individual__title">Индивидуальный подход</h2>
+            <p class="individual__description">
+              У каждой компании, с которой мы работаем, своя концепция и свой
+              голос. Мы развиваем уникальные продукты. Мы предлагаем несколько
+              сервисов для развития вашей компании. Если вы не найдете нужной
+              услуги, мы всегда готовы встретиться и обсудить, чем можем помочь
+              именно вам.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="experience__wrapper">
+          <div class="experience__container">
+            <h2 class="experience__title">
+              <span class="experience__span">12 лет</span> опыта&nbsp;работы с
+              данными
             </h2>
-        </section>
+            <p class="experience__description">
+              Мы занимаемся работой с данными совокупно уже более 12 лет. За это
+              время наша экспертиза выросла многократно.
+            </p>
+          </div>
 
-        <section class="leadform">
-            <div class="leadform__container">
-                <h3 class="leadform__title">Вы готовы работать с нами?</h3>
-                <h4 class="leadform__subtitle">Наши менеджеры свяжутся с вами</h4>
-                <form class="leadform__form" action="">
-                    <input class="input input__name" type="text" name="name" placeholder="Ваше имя">
-                    <input class="input input__email"  type="email" name="email" placeholder="Введите Email">
-                    <input class="input input__tel" type="tel" name="tel" placeholder="Введите телефон">                    
-                </form>
-                <button class="button">Оставить заявку</button>
-            </div>
-        </section>
+          <img
+            src="./blocks/experience/__image/experience__image.jpg"
+            alt=""
+            class="experience__image"
+            height="352"
+            width="326"
+          />
+        </div>
+      </section>
 
+      <section class="business">
+        <div class="business__wrapper">
+          <img
+            src="./blocks/business/__image/business.jpg"
+            alt=""
+            class="business__image"
+            height="315"
+            width="415"
+          />
+          <div class="business__container">
+            <h2 class="business__title">Все, что необходимо бизнесу</h2>
+            <p class="business__description">
+              Для наших клиентов мы решали IT и аналитические задачи, изучали
+              алгоритмы продаж, работали с большими данными строя аналитические
+              модели. Всё то, что нужно для уверенного роста бизнеса и продаж.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="company">
+        <div class="company__wrapper">
+          <div class="company__container">
+            <h2 class="company__title">Компания JStick</h2>
+            <p class="company__description">
+              Мы команда JStick. Наша работа — решать вопросы с аналитикой
+              продаж на маркетплейсах для производственных кампаний.
+            </p>
+            <p class="company__description">
+              Мы занимаемся работой с данными совокупно уже более 12 лет. За это
+              время наша экспертиза выросла многократно. Для наших клиентов мы
+              решали IT и аналитические задачи, изучали алгоритмы продаж,
+              работали с большими данными строя аналитические модели. Всё то,
+              что нужно для уверенного роста бизнеса и продаж.
+            </p>
+          </div>
+
+          <img
+            src="./blocks/company/__image/company.jpg"
+            alt=""
+            class="company__image"
+            height="293"
+            width="536"
+          />
+        </div>
+      </section>
+
+      <section class="action">
+        <h2 class="action__title">
+          Вам лишь останется сфокусироваться на производственных процессах, а
+          заботы о анализе данных продаж мы возьмем на себя.
+        </h2>
+      </section>
+
+      <section class="leadform">
+        <div class="leadform__wrapper">
+          <h3 class="leadform__title">Вы готовы работать с нами?</h3>
+          <h4 class="leadform__subtitle">Наши менеджеры свяжутся с вами</h4>
+          <form class="leadform__form" action="">
+            <input
+              class="input input__name"
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+            />
+            <input
+              class="input input__email"
+              type="email"
+              name="email"
+              placeholder="Введите Email"
+            />
+            <input
+              class="input input__tel"
+              type="tel"
+              name="tel"
+              placeholder="Введите телефон"
+            />
+          </form>
+          <button class="button">Оставить заявку</button>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
+      <div class="footer__wrapper">
         <div class="footer__layout">
-            <a href="#" class="logo"></a>
+          <a href="#" class="logo"></a>
 
-            <div class="footer__container">
-                <div class="footer__column">
-                    <h3 class="footer__title">Продукт</h3>
+          <div class="footer__container">
+            <div class="footer__column">
+              <h3 class="footer__title">Продукт</h3>
 
-                    <nav class="footer__navigation">
-                        <ul class="footer__navigation-list">
-                            <li class="footer__navigation-item">
-                                <a href="#" class="footer__navigation-link">Как это работает</a>
-                            </li>
-                            <li class="footer__navigation-item">
-                                <a href="#" class="footer__navigation-link">Наши клиенты</a>
-                            </li>
-                            <li class="footer__navigation-item">
-                                <a href="#" class="footer__navigation-link">Тарифы</a>
-                            </li>
-                            <li class="footer__navigation-item">
-                                <a href="#" class="footer__navigation-link">О компании</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="footer__column">
-                    <h3 class="footer__title">Контакты</h3>
-
-                    <ul class="footer__navigation-list">
-                        <li class="footer__navigation-item">
-                            <p class="footer__navigation-text">Адрес: Москва, <br>Лубянский проезд, 19-1</p>
-                        </li>
-                        <li class="footer__navigation-item">
-                            <p class="footer__navigation-text">Телефон:<br>
-                                <a href="tel:+79876543210" class="footer__navigation-link">+7 (987) 654-32-10</a>
-                            </p>
-                        </li>
-                        <li class="footer__navigation-item">
-                            <p class="footer__navigation-text">Email:<br>
-                                <a href="mailto:hello@jstck.ru" class="footer__navigation-link">hello@jstck.ru</a>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer__column">
-                    <a href="#" class="footer__smm-link footer__smm-link_facebook"></a>
-                    <a href="#" class="footer__smm-link footer__smm-link_telegram"></a>
-                    <a href="#" class="footer__smm-link footer__smm-link_linkedin"></a>
-                </div>
+              <nav class="footer__navigation">
+                <ul class="footer__navigation-list">
+                  <li class="footer__navigation-item">
+                    <a href="#" class="footer__navigation-link"
+                      >Как это работает</a
+                    >
+                  </li>
+                  <li class="footer__navigation-item">
+                    <a href="#" class="footer__navigation-link">Наши клиенты</a>
+                  </li>
+                  <li class="footer__navigation-item">
+                    <a href="#" class="footer__navigation-link">Тарифы</a>
+                  </li>
+                  <li class="footer__navigation-item">
+                    <a href="#" class="footer__navigation-link">О компании</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-        </div>
-    </footer>
-</body>
 
+            <div class="footer__column">
+              <h3 class="footer__title">Контакты</h3>
+
+              <ul class="footer__navigation-list">
+                <li class="footer__navigation-item">
+                  <p class="footer__navigation-text">
+                    Адрес: Москва, <br />Лубянский проезд, 19-1
+                  </p>
+                </li>
+                <li class="footer__navigation-item">
+                  <p class="footer__navigation-text">
+                    Телефон:<br />
+                    <a href="tel:+79876543210" class="footer__navigation-link"
+                      >+7 (987) 654-32-10</a
+                    >
+                  </p>
+                </li>
+                <li class="footer__navigation-item">
+                  <p class="footer__navigation-text">
+                    Email:<br />
+                    <a
+                      href="mailto:hello@jstck.ru"
+                      class="footer__navigation-link"
+                      >hello@jstck.ru</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__column">
+              <a
+                href="#"
+                class="footer__smm-link footer__smm-link_facebook"
+              ></a>
+              <a
+                href="#"
+                class="footer__smm-link footer__smm-link_telegram"
+              ></a>
+              <a
+                href="#"
+                class="footer__smm-link footer__smm-link_linkedin"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

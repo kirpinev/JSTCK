@@ -1,4 +1,4 @@
-@import url(./__container/leadform__container.css);
+@import url(__wrapper/leadform__wrapper.css);
 @import url(./__title/leadform__title.css);
 @import url(./__subtitle/leadform__subtitle.css);
 @import url(./input/input.css);
@@ -6,10 +6,6 @@
 
 
 .leadform {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     background: #F2F5F8;
     padding: 56px 0;
 }

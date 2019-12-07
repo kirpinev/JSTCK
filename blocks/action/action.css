@@ -3,4 +3,5 @@
 .action {
     display: flex;
     justify-content: center;
+    padding: 108px 0 45px 0;
 }
