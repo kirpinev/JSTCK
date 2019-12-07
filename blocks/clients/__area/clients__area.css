@@ -1,6 +1,5 @@
 .clients__area {
-    width: 1067px;
-    margin: 41px auto 0;
+    margin: 50px auto 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }

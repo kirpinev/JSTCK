@@ -1,8 +1,5 @@
 .clients__wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 970px;
     padding: 104px 0 122px 0;
-    margin: auto;
+    margin: 0 auto;
 }
