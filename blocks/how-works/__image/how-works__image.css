@@ -1,4 +1,7 @@
 .how-works__image {
   border-radius: 50%;
   box-shadow: 0 6px 17px rgba(1, 30, 60, 0.15);
+  margin: 0 0 28px 0;
+  width: 165px;
+  height: 165px;
 }
