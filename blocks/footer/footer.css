@@ -7,7 +7,8 @@
 @import url(./__navigation-link/footer__navigation-link.css);
 @import url(./__navigation-text/footer__navigation-text.css);
 @import url(./__title/footer__title.css);
-@import url(./__smm-link/footer__smm-link.css);
+@import url(./__social-link/footer__social-link.css);
+@import url(./__social-icon/footer__social-icon.css);
 
 .footer {
     background-color: #000;
