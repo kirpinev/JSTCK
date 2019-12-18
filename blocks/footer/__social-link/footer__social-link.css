@@ -1,7 +1,3 @@
-@import url(./_facebook/footer__social-link_facebook.css);
-@import url(./_telegram/footer__social-link_telegram.css);
-@import url(./_linkedin/footer__social-link_linkedin.css);
-
 .footer__social-link {
     display: inline-block;
     height: 20px;
