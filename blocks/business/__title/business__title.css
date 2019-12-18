@@ -1,10 +1,6 @@
 .business__title {
-  max-width: 430px;
-  font-family: "Open Sans", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  max-width: 518px;
   font-size: 40px;
-  line-height: 124.1%;
-  color: #00376e;
+  line-height: 1.4;
   margin: 0;
 }

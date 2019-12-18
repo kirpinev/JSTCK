@@ -1,6 +1,5 @@
 .action__title {
   max-width: 1151px;
   text-align: center;
-  font: normal 600 1.875em/1.24 "Open Sans", Arial, sans-serif;
-  color: #00376e;
+  font-size: 1.875em;
 }

@@ -1,8 +1,8 @@
 @import url(./lead__title_br.css);
 
 .lead__title {
-    font: 600 3em/1.3 "Open Sans", Arial, sans-serif;
-    color: #00376e;
-    max-width: 650px;
+    font-size: 3em;
+    line-height: 1.4;
+    max-width: 670px;
     margin: 0 0 20px 0;
 }
