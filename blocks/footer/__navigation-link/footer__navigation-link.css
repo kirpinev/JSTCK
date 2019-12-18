@@ -1,10 +1,10 @@
 .footer__navigation-link {
-    font: 400 0.8em/1.2 'Avenir Next', Arial, sans-serif;
-    color: #979797;
-    text-decoration: none;
-    cursor: pointer;
+  font: 400 0.8em/1.2 "Open Sans", Arial, sans-serif;
+  color: #979797;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .footer__navigation-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
