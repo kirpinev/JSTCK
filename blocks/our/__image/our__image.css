@@ -1,4 +1,7 @@
 .our__image {
+    width: 315px;
+    height: auto;
     mix-blend-mode: multiply;
     margin-top: -44px;
+    margin-left: 72px;
 }

@@ -1,6 +1,6 @@
 .experience__wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
   padding: 25px 0;
   max-width: 1217px;

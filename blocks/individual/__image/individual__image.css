@@ -1,4 +1,6 @@
 .individual__image {
     margin: -12px 0 0 0;
     mix-blend-mode: multiply;
+    width: auto;
+    height: 241px;
 }

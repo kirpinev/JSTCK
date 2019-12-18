@@ -1,3 +1,5 @@
 .experience__image {
     mix-blend-mode: multiply;
+    width: auto;
+    height: 312px;
 }
