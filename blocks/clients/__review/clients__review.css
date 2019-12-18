@@ -1,10 +1,10 @@
 .clients__review {
-    width: 367px;
-    font-family: "Avenir Next";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #898E93;
-    margin: 0;
+  width: 367px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #898e93;
+  margin: 0;
 }

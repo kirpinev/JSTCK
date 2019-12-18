@@ -1,12 +1,12 @@
 .header__navigation-link {
-    font: 600 0.8em/1.2 'Avenir Next', Arial, sans-serif;
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    color: #00376E;
-    letter-spacing: 0.04em;
+  font: 600 0.8em/1.2 "Open Sans", Arial, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #00376e;
+  letter-spacing: 0.04em;
 }
 
 .header__navigation-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

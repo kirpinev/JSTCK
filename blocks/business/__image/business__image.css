@@ -1,4 +1,6 @@
 .business__image {
     mix-blend-mode: multiply;
-    margin: 29px 0 0 0;
+    margin: 29px 189px 0 6px;
+    width: auto;
+    height: 230px;
 }

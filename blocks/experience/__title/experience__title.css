@@ -1,12 +1,10 @@
 .experience__title {
-    max-width: 493px;
-    font-family: "Avenir Next", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 2.5em;
-    line-height: 124.1%;
-
-    color: #00376E;
-    margin: 0;
-    margin-bottom: 15px;
+  max-width: 517px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5em;
+  line-height: 124.1%;
+  color: #00376e;
+  margin: 0 0 15px 0;
 }

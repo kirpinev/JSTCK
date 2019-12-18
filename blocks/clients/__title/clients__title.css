@@ -1,13 +1,3 @@
 .clients__title {
-    max-width: 1440px;
-    margin: 0 0 50px;
-    font-family: "Avenir Next";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 124.1%;
-
-    text-align: center;
-
-    color: #00376E;
+  margin: 0 0 50px;
 }
