@@ -4,8 +4,7 @@
 @import url(./input/input.css);
 @import url(./__form/leadform__form.css);
 
-
 .leadform {
-    background: #F2F5F8;
-    padding: 50px 0 65px;
+  background: #f2f5f8;
+  padding: 55px 0 57px;
 }
