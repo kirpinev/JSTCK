@@ -1,0 +1,15 @@
+# Files
+.analysis
+.DS_Store
+*.swp
+*~
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*

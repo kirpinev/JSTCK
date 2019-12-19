@@ -18,3 +18,7 @@
 @import url(../blocks/experience/experience.css);
 @import url(../blocks/business/business.css);
 @import url(../blocks/leadform/leadform.css);
+
+html {
+    scroll-behavior: smooth;
+}
